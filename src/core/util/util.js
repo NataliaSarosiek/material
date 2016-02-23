@@ -210,7 +210,7 @@ function UtilFactory($document, $timeout, $compile, $rootScope, $$mdAnimate, $in
           applyStyles(body, {
             position: 'fixed',
             width: '100%',
-            top: -scrollOffset + 'px'
+            //top: -scrollOffset + 'px'
           });
 
           applyStyles(htmlNode, {
@@ -674,4 +674,3 @@ angular.element.prototype.blur = angular.element.prototype.blur || function() {
     }
     return this;
   };
-
